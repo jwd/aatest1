@@ -1,0 +1,101 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://jwd.github.io/aatest1/annotations/indiana-university-college-of-arts-sciences-turning-on-the-heat-canvas-1-structure.json",
+  "type": "AnnotationPage",
+  "label": "structure",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "indiana-university-college-of-arts-sciences-turning-on-the-heat-canvas-1-structure-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Beginning of video",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://jwd.github.io/aatest1/indiana-university-college-of-arts-sciences-turning-on-the-heat/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://media.dlib.indiana.edu/media_objects/k643b776b/manifest",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "12.00"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "indiana-university-college-of-arts-sciences-turning-on-the-heat-canvas-1-structure-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Narration starts",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://jwd.github.io/aatest1/indiana-university-college-of-arts-sciences-turning-on-the-heat/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://media.dlib.indiana.edu/media_objects/k643b776b/manifest",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "84.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "indiana-university-college-of-arts-sciences-turning-on-the-heat-canvas-1-structure-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Talking heads",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://jwd.github.io/aatest1/indiana-university-college-of-arts-sciences-turning-on-the-heat/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://media.dlib.indiana.edu/media_objects/k643b776b/manifest",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "96.0"
+        }
+      }
+    }
+  ]
+}
