@@ -16,6 +16,16 @@
         "id": "https://jwd.github.io/aatest1/turning-on-the-heat/canvas-1/canvas",
         "type": "Canvas",
         "duration": 490.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://jwd.github.io/aatest1/annotations/turning-on-the-heat-canvas-1-structure.json",
+            "label": {
+              "none": ["structure"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://jwd.github.io/aatest1/turning-on-the-heat/canvas-1/paintings",
