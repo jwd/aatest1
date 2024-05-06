@@ -16,6 +16,16 @@
         "id": "https://jwd.github.io/aatest1/afrique-sur-seine/canvas-1/canvas",
         "type": "Canvas",
         "duration": 1354.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://jwd.github.io/aatest1/annotations/afrique-sur-seine-canvas-1-structure.json",
+            "label": {
+              "none": ["structure"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://jwd.github.io/aatest1/afrique-sur-seine/canvas-1/paintings",
