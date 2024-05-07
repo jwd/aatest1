@@ -1,12 +1,12 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://jwd.github.io/aatest1/annotations/afrique-sur-seine-canvas-1-structure.json",
+  "id": "https://jwd.github.io/aatest1/annotations/afrique-sur-seine-canvas-1-timepoints.json",
   "type": "AnnotationPage",
-  "label": "structure",
+  "label": "timepoints",
   "items": [
     {
       "@context": "http://www.w3.org/ns/anno.jsonld",
-      "id": "afrique-sur-seine-canvas-1-structure-annotation-0.json",
+      "id": "afrique-sur-seine-canvas-1-timepoints-annotation-0.json",
       "type": "Annotation",
       "motivation": [
         "supplementing",
@@ -14,7 +14,7 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Start of titles",
+        "value": "Interesting timepoint #1",
         "format": "text/plain",
         "purpose": "commenting"
       },
@@ -30,14 +30,14 @@
           ]
         },
         "selector": {
-          "type": "RangeSelector",
-          "t": "27.00,88.0"
+          "type": "PointSelector",
+          "t": "120.0"
         }
       }
     },
     {
       "@context": "http://www.w3.org/ns/anno.jsonld",
-      "id": "afrique-sur-seine-canvas-1-structure-annotation-1.json",
+      "id": "afrique-sur-seine-canvas-1-timepoints-annotation-1.json",
       "type": "Annotation",
       "motivation": [
         "supplementing",
@@ -45,7 +45,7 @@
       ],
       "body": {
         "type": "TextualBody",
-        "value": "Rest of film",
+        "value": "Interesting timepoint #2",
         "format": "text/plain",
         "purpose": "commenting"
       },
@@ -61,8 +61,39 @@
           ]
         },
         "selector": {
-          "type": "RangeSelector",
-          "t": "88.0,1354.0"
+          "type": "PointSelector",
+          "t": "600.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "afrique-sur-seine-canvas-1-timepoints-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Interesting timepoint #3",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://jwd.github.io/aatest1/afrique-sur-seine/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://jwd.github.io/aatest1/afrique-sur-seine/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "900.0"
         }
       }
     }

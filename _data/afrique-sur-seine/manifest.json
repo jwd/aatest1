@@ -25,6 +25,14 @@
               "none": ["structure"]
             }
           }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://jwd.github.io/aatest1/annotations/afrique-sur-seine-canvas-1-timepoints.json",
+            "label": {
+              "none": ["timepoints"]
+            }
+          }
         ],
         "items": [
           {
