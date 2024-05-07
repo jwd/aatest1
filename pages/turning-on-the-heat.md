@@ -1,5 +1,5 @@
 ---
-layout: aviary
+layout: item
 title: Turning on the heat
 manifest_name: turning-on-the-heat
 permalink: turning-on-the-heat
