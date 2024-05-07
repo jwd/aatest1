@@ -16,16 +16,6 @@
         "id": "https://jwd.github.io/aatest1/test2/canvas-1/canvas",
         "type": "Canvas",
         "duration": 490.0,
-        "annotations": [
-          
-          {
-            "type": "AnnotationPage",
-            "id": "https://jwd.github.io/aatest1/annotations/test2-canvas-1-structure.json",
-            "label": {
-              "none": ["structure"]
-            }
-          }
-        ],
         "items": [
           {
             "id": "https://jwd.github.io/aatest1/test2/canvas-1/paintings",
@@ -37,6 +27,8 @@
                 "motivation": "painting",
                 "body": {
                   "id": "https://media.dlib.indiana.edu/master_files/x346db749/high.m3u8",
+                    "type": "Video",
+                    "format": "application/x-mpegurl",
                     "duration": 490.0
                 },
                 "target": "https://jwd.github.io/aatest1/test2/canvas-1/canvas"
